@@ -1,7 +1,7 @@
 import streamlit as st
 import settings
 
-st.title("📝 heartangel gpT")
+st.title("📝 heartangel gpt")
 
 config = settings.load_config()
 if "api_key" in config:
